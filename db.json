@@ -1,54 +1,56 @@
-[
-  {
-    "id": 1,
-    "name": "Products",
-    "securityCode": "Tables",
-    "icon": "fa fa-th-list",
-    "subCategories": [
-      {
-        "id": 1,
-        "name": "Automobile",
-        "hidden": false,
-        "securityCode": "",
-        "description": "This is one of the subcategories",
-        "icon": "fa fa-th-list",
-        "route": "/client"
-      },
-      {
-        "id": 2,
-        "name": "Motocycle",
-        "hidden": false,
-        "securityCode": "",
-        "description": "This is one of the subcategories",
-        "icon": "fa fa-th-list",
-        "route": "/client"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Reports",
-    "securityCode": "Tables",
-    "icon": "fa fa-th-list",
-    "subCategories": [
-      {
-        "id": 1,
-        "name": "All transactions",
-        "hidden": false,
-        "securityCode": "",
-        "description": "This is one of the subcategories",
-        "icon": "fa fa-th-list",
-        "route": "/client"
-      },
-      {
-        "id": 2,
-        "name": "All Sales",
-        "hidden": false,
-        "securityCode": "",
-        "description": "This is one of the subcategories",
-        "icon": "fa fa-th-list",
-        "route": "/client"
-      }
-    ]
-  }
-]
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Products",
+      "securityCode": "Tables",
+      "icon": "fa fa-th-list",
+      "subCategories": [
+        {
+          "id": 1,
+          "name": "Automobile",
+          "hidden": false,
+          "securityCode": "",
+          "description": "This is one of the subcategories",
+          "icon": "fa fa-th-list",
+          "route": "/client"
+        },
+        {
+          "id": 2,
+          "name": "Motocycle",
+          "hidden": false,
+          "securityCode": "",
+          "description": "This is one of the subcategories",
+          "icon": "fa fa-th-list",
+          "route": "/client"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Reports",
+      "securityCode": "Tables",
+      "icon": "fa fa-th-list",
+      "subCategories": [
+        {
+          "id": 1,
+          "name": "All transactions",
+          "hidden": false,
+          "securityCode": "",
+          "description": "This is one of the subcategories",
+          "icon": "fa fa-th-list",
+          "route": "/client"
+        },
+        {
+          "id": 2,
+          "name": "All Sales",
+          "hidden": false,
+          "securityCode": "",
+          "description": "This is one of the subcategories",
+          "icon": "fa fa-th-list",
+          "route": "/client"
+        }
+      ]
+    }
+  ]
+}
