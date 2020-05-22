@@ -3,52 +3,46 @@
     {
       "id": 1,
       "name": "Products",
-      "securityCode": "Tables",
       "icon": "fa fa-th-list",
       "subCategories": [
         {
           "id": 1,
           "name": "Automobile",
-          "hidden": false,
-          "securityCode": "",
-          "description": "This is one of the subcategories",
+          "description": "To quote Automobiles",
           "icon": "fa fa-th-list",
-          "route": "/client"
+		  "type" : "type1"
+          "detail": ""
         },
         {
           "id": 2,
           "name": "Motocycle",
-          "hidden": false,
-          "securityCode": "",
-          "description": "This is one of the subcategories",
+		  "type" : "type2"
+          "description": "To quote Motocycles",
           "icon": "fa fa-th-list",
-          "route": "/client"
+		  "detail": ""
         }
       ]
     },
-    {
+	{
       "id": 2,
       "name": "Reports",
-      "securityCode": "Tables",
       "icon": "fa fa-th-list",
       "subCategories": [
         {
-          "id": 1,
+          "id": 3,
           "name": "All transactions",
-          "hidden": false,
-          "securityCode": "",
-          "description": "This is one of the subcategories",
+          "description": "List all transactions",
           "icon": "fa fa-th-list",
-          "route": "/client"
+		  "type" : "type1"
+          "detail": ""
         },
         {
-          "id": 2,
-          "name": "All Sales",
-          "hidden": false,
-          "securityCode": "",
-          "description": "This is one of the subcategories",
+          "id": 4,
+          "name": "Sales Report",
+		  "type" : "type2"
+          "description": "Transactions with Sales",
           "icon": "fa fa-th-list",
-          "route": "/client"
+		  "detail": ""
         }
       ]
     }
