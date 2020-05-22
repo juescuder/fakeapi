@@ -10,20 +10,20 @@
           "name": "Automobile",
           "description": "To quote Automobiles",
           "icon": "fa fa-th-list",
-		  "type" : "type1"
+          "type": "type1",
           "detail": ""
         },
         {
           "id": 2,
           "name": "Motocycle",
-		  "type" : "type2"
+          "type": "type2",
           "description": "To quote Motocycles",
           "icon": "fa fa-th-list",
-		  "detail": ""
+          "detail": ""
         }
       ]
     },
-	{
+    {
       "id": 2,
       "name": "Reports",
       "icon": "fa fa-th-list",
@@ -33,16 +33,16 @@
           "name": "All transactions",
           "description": "List all transactions",
           "icon": "fa fa-th-list",
-		  "type" : "type1"
+          "type": "type1",
           "detail": ""
         },
         {
           "id": 4,
           "name": "Sales Report",
-		  "type" : "type2"
+          "type": "type2",
           "description": "Transactions with Sales",
           "icon": "fa fa-th-list",
-		  "detail": ""
+          "detail": ""
         }
       ]
     }
