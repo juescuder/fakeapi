@@ -11,7 +11,9 @@
           "description": "To quote Automobiles",
           "icon": "fa fa-th-list",
           "type": "type1",
-          "detail": ""
+          "additional": {
+            "route": "product/auto"
+          }
         },
         {
           "id": 2,
@@ -19,7 +21,9 @@
           "type": "type2",
           "description": "To quote Motocycles",
           "icon": "fa fa-th-list",
-          "detail": ""
+          "additional": {
+            "route": "product/moto"
+          }
         }
       ]
     },
@@ -34,7 +38,9 @@
           "description": "List all transactions",
           "icon": "fa fa-th-list",
           "type": "type1",
-          "detail": ""
+          "additional": {
+            "route": "report/alltrans"
+          }
         },
         {
           "id": 4,
@@ -42,7 +48,9 @@
           "type": "type2",
           "description": "Transactions with Sales",
           "icon": "fa fa-th-list",
-          "detail": ""
+          "additional": {
+            "route": "report/allsales"
+          }
         }
       ]
     }
