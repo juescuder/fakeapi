@@ -1,0 +1,19 @@
+[
+  {
+    "id":"Tables1",
+    "name":"Tables",
+    "securityCode":"Tables",
+    "icon":"fa fa-th-list",
+    "subCategories": [
+      {
+        "id":"Clients",
+        "name":"Clients",
+        "hidden": false,
+        "securityCode":"",
+        "description":"This is one of the subcategories",
+        "icon":"fa fa-th-list",
+        "route":"/client"
+      }
+    ]
+  }
+]
